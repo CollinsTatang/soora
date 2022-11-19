@@ -6,7 +6,8 @@ const Main = () => {
     <View style={styles.mainContainer}>
         <View style={styles.textContainer}>
             <Text style={styles.comingSoon}>Coming Soon</Text>
-            <Text style={styles.textHead}>Bringing Muslims Together</Text>                          
+            <Text style={styles.textHead}>Bringing</Text> 
+            <Text style={styles.textHead}>Muslims Together</Text>                         
         </View>
         <View style={styles.playIcon} >
                 <Image style={styles.playIcon1} source={require('../assets/images/google-play.png')} />
@@ -19,11 +20,12 @@ const Main = () => {
             source={require('../assets/images/landing-image-2.png')} />
 
         <View style={styles.textContainer2}>
-            <Text style={styles.comingSoon2}>Coming Soon</Text>
-            <Text style={styles.textHead}>Get Notified When we Launch</Text>
-            <TextInput style={{height: 40, width: "100%"}} placeholder=""></TextInput>
-            <Text style={styles.textHead}>Your email address has been received.</Text>
-            <Text style={styles.textHead}>Don't worry, we won't spam you :)</Text>
+            <Text style={styles.comingSoon}>Coming Soon</Text>
+            <Text style={styles.textHead}>Get Notified</Text>
+            <Text style={styles.textHead}>When we Launch</Text>
+            <TextInput style={styles.input} placeholder=""></TextInput>
+            <Text style={styles.subTile2} >Your email address has been received.</Text>
+            <Text style={styles.subTile}>Don't worry, we won't spam you :)</Text>
         </View>
 
         <Image 
@@ -38,10 +40,33 @@ const styles = StyleSheet.create({
     container: {
         backgroundColor: "#fff",
         justifyContent: "space-between", 
-        flex: 1,
-        
+        flex: 1,   
     },
-    
+    comingSoon:{
+        fontFamily: "Inter",
+        fontStyle: 'normal',
+        alignSelf: 'center',
+        marginRight: 15,
+    },
+    subTile:{
+        fontFamily: "Inter",
+        fontStyle: 'normal',
+        alignSelf: 'center',
+        marginRight: 15,
+    },
+    subTile2:{
+        fontFamily: "Inter",
+        fontStyle: 'normal',
+        alignSelf: 'center',
+        marginRight: 15,
+        color: "blue",
+    },
+    input: {
+        height: 40,
+        margin: 12,
+        borderWidth: 1,
+        padding: 10,
+      },
     mainContainer: {
         justifyContent: "center",
         alignItems: "center",
@@ -51,6 +76,7 @@ const styles = StyleSheet.create({
         fontFamily: "Inter",
         fontStyle: "normal",
         fontSize: 36,
+        alignSelf: 'center',
     },
    
     landingImage: {
@@ -69,33 +95,21 @@ const styles = StyleSheet.create({
 
     textContainer: {
         backgroundColor: "#fff",
-        marginTop: 5,
-        marginLeft: 3,
-        marginRight: 3,
-    },
-        container: {
-        backgroundColor: "#fff",
-        marginTop: 5,
-        marginLeft: 3,
-        marginRight: 3,
-        flex: 1,
-    },
-    container: {
-        backgroundColor: "#fff",
-        justifyContent: "space-between", 
-        flex: 1,
+        alignSelf: 'center',
+        marginTop: 70,
+        marginBottom: 10,
         
     },
+      
     textContainer2: {
         backgroundColor: "#fff",
-        justifyContent: "center",
-        alignItems: "center",
+        alignSelf: 'center',
         marginBottom: 5, 
     },
     playIcon: {
         flexDirection: "row",
-    },
-       
+        marginTop: 10,
+    },     
     
 })
 

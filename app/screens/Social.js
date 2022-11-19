@@ -1,5 +1,6 @@
 import React from 'react'
 import { View, StyleSheet, Image, } from 'react-native';
+
 const Social = () => {
   return (
     <View style={styles.social}>
@@ -14,7 +15,9 @@ const Social = () => {
 const styles = StyleSheet.create({
     social:{
         flexDirection: "row",
-        justifyContent: "space-evenly",
+        alignSelf: "center",
+        marginBottom: 60,
+        height: 20,
     },
   });
 
