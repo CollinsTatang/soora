@@ -11,6 +11,12 @@
 ![Soora](./app/assets/screencapture-sooratheapp.png)
   
 ========
+## Live Demo
+- To run the live demo project please follow below steps
+  - Install `expo` on your andriod device 
+  - Run the expo app and scan the barcode below. 
+  ![Soora](./app/assets/bar.png)
+
 
 ## Built With
 
