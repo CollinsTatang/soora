@@ -16,13 +16,14 @@ const Footer = () => {
 
 const styles = StyleSheet.create({
   footerContainer: {
-      
+   
   },
 
  footer: {
-     width: "100%",
-     color:" #0B0B0B",
-     marginBottom: 5,
+     marginBottom: 10,
+     marginLeft: 30,
+     marginTop: 0,
+     
 },
 });
 
