@@ -8,7 +8,6 @@
   
 ### Project requirements
 - For this exercise, I replicate our homepage but in React Native.
-![Soora](./app/assets/screencapture-sooratheapp.png)
   
 ========
 ## Live Demo
