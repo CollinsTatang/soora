@@ -60,7 +60,7 @@ npm test
 
 - GitHub: [@CollinsTatang1](https://github.com/CollinsTatang)
 - Twitter: [@CollinsTatang1](https://twitter.com/CollinsTatang1)
-- LinkedIn: [Makungong Collins](https://www.linkedin.com/in/makungong-collins/)
+- LinkedIn: [Makungong Collins](https://www.linkedin.com/in/makungang-collins/)
 
 ## 🤝 Contributing
 
