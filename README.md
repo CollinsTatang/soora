@@ -56,7 +56,7 @@ npm test
 
 ## Authors
 
-👤**Makungong Collins Tatang**
+👤**Makungang Collins Tatang**
 
 - GitHub: [@CollinsTatang](https://github.com/CollinsTatang)
 - Twitter: [@CollinsTatang1](https://twitter.com/CollinsTatang1)
