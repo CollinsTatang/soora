@@ -58,7 +58,7 @@ npm test
 
 👤**Makungong Collins Tatang**
 
-- GitHub: [@CollinsTatang1](https://github.com/CollinsTatang)
+- GitHub: [@CollinsTatang](https://github.com/CollinsTatang)
 - Twitter: [@CollinsTatang1](https://twitter.com/CollinsTatang1)
 - LinkedIn: [Makungang Collins Tatang](https://www.linkedin.com/in/makungang-collins/)
 
